@@ -1,0 +1,62 @@
+/* start at top, text color and font */
+* { 
+  margin: 0;
+  color: darkblue;
+  font-family: 'Times New Roman', Times, serif
+}
+
+/* size of view and color */
+header, footer {
+  width: 100%;
+  background-color: lightskyblue;
+}
+
+/* navigation bar fixed */
+header {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  border-bottom: 3px solid darkblue;
+}
+
+/* Right align the menu items */
+ul {
+  text-align: right;
+  padding: auto;
+}
+
+/* Menu items - no bullet, inline, space inbetween */
+li {
+  list-style-type: none;
+  display: inline;
+  font-size: 20px;
+  margin: 20px;
+}
+
+/* Main sectino to stay below fixed nav bar */
+section {
+  padding-top: 60px;
+  text-align: center;
+}
+
+/* adjust spacing */
+h1, img, form {
+  padding: 5px;
+}
+
+/* postition the contact us form */
+form {
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  background-color: #93af3d
+}
+
+/* footer sixze n color */
+footer {
+  width: auto;
+  margin: 20px 0 0;
+  padding: 5px;
+  border-top: 3px solid darkblue;
+  border-bottom: 3px solid darkblue;
+}
